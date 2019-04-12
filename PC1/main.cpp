@@ -40,7 +40,7 @@ int main() {
     tll.pushback1(77);
     tll.pushback2(88);
     tll.pushback1(99);
-    auto result2 = tll.merge(99);
+    auto result2 = tll.merge(100);
     assert(result2 == string("Operación duplicada"));
     assert(tll.getlist(0) == string("66 77 88 99"));
 
